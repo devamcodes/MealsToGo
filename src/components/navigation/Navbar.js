@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   // incoming prop object must be in this format
-  // [{id:'',link:'',url-ext:''},
-  // {id:'',link:'',url-ext:''},
-  // {id:'',link:'',url-ext:''},]
+  // [{id:'',link:'',urlExt:''},
+  // {id:'',link:'',urlExt:''},
+  // {id:'',link:'',urlExt:''},]
   //
   return (
     <div>

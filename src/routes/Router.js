@@ -2,7 +2,7 @@ import { useRoutes } from "react-router-dom";
 import Home from "../pages/Home.js";
 import About from "../pages/About";
 import Error404 from "../pages/errors/Error404.js";
-import BasicLayout from "../components/BasicLayout.js";
+import BasicLayout from "../components/layouts/BasicLayout.js";
 export default function Router() {
 	let element = useRoutes([
 		{

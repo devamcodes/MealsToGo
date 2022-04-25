@@ -1,5 +1,5 @@
 .main {
-	position: fixed;
+	position: absolute;
 	padding: 10px 0px;
 	font-size: larger;
 	font-weight: bold;
@@ -7,7 +7,30 @@
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: grey;
 	color: black;
 	text-align: center;
+	/* min-height: 30%; */
+	margin-bottom: -100px;
+	background: #ddd;
+}
+html,
+body {
+	height: 100%;
+}
+main::before {
+	content: "";
+	display: block;
+	/* padding-top: 200px; */
+	/* padding-bottom: 500px; */
+	/* height: 1px; */
+}
+
+/* main:after {
+	content: "";
+	display: block;
+	height: 100px;
+} */
+footer {
+	height: 100px;
+	background: #eee;
 }
